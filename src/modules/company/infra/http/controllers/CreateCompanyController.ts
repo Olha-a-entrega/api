@@ -1,6 +1,6 @@
 import { Request, Response } from "express";
 import { container } from "tsyringe";
-import { CreateCompanyService } from "../../../services/CompanyService";
+import { CreateCompanyService } from "../../../services/CreateCompanyService";
 
 export class CreateCompanyController {
   async handle(req: Request, res: Response): Promise<Response> {
